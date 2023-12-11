@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arhold Tolenada's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #ff8a00, #e52e71);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px; /* Increased padding for a bolder header */
+            text-align: center;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://your-image-url.jpg') center/cover no-repeat; /* Replace with your image URL */
+            z-index: -1;
+            opacity: 0.5; /* Adjust opacity as needed */
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .intro-text {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            color: #ddd;
+            line-height: 1.5;
+            font-style: italic;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .code-link {
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .code-link:hover {
+            transform: scale(1.05);
+        }
+
+        .code-link a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .code-link img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .code-link p {
+            color: #555;
+        }
+
+        @media screen and (min-width: 600px) {
+            .code-link {
+                width: 48%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Arhold Tolenada's Portfolio</h1>
+        </div>
+    </header>
+
+    <div class="intro-text">
+        <p>Welcome to my Personal Portfolio! I'm Arhold Tolenada, a passionate Information System (IS) Student on a mission to blend innovation with functionality. With a heart for design and a mind for coding, I embark on a journey to create seamless digital experiences.</p>
+    </div>
+
+    <div class="code-link">
+        <a href="https://bright-foamy-marquis.glitch.me/">
+            <img src="https://cdn.glitch.global/49482c9c-5cbf-4d53-8696-1934cea5a296/Screenshot_20231211-115518~2.png?v=1702267625709" alt="Code Image 1">
+            <h3>Code 1</h3>
+            <p>Dive into my Recipe, click here to learn how to cook a delicious Filipino Style Palabok.</p>
+        </a>
+    </div>
+
+    <div class="code-link">
+        <a href="https://wool-observant-popcorn.glitch.me/">
+            <img src="https://cdn.glitch.global/49482c9c-5cbf-4d53-8696-1934cea5a296/Screenshot_20231211-115530~2.png?v=1702267633573" alt="Code Image 2">
+            <h3>Code 2</h3>
+            <p>Explore my Certificate of Registration by clicking here.</p>
+        </a>
+    </div>
+    
+    <div class="code-link">
+        <a href="https://glimmer-jeweled-mechanic.glitch.me/">
+            <img src="https://cdn.glitch.global/49482c9c-5cbf-4d53-8696-1934cea5a296/Screenshot_20231211-115541~2.png?v=1702267640021" alt="Code Image 3">
+            <h3>Code 3</h3>
+            <p>Discover my personal information, including my hobbies and more.</p>
+        </a>
+    </div>
+    
+    <div class="code-link">
+        <a href="https://whimsical-maple-sagittarius.glitch.me/">
+            <img src="https://cdn.glitch.global/49482c9c-5cbf-4d53-8696-1934cea5a296/Screenshot_20231211-115609~2.png?v=1702267099407" alt="Code Image 2">
+            <h3>Code 4</h3>
+            <p>Indulge in my Favorite Fruits, Vegetables, and other Foods.</p>
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2023 Arhold Tolenada. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
